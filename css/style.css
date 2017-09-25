@@ -1,0 +1,380 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GERAL */
+
+body {
+  width: 100%;
+  font-family: "Lato", "Sans-Serif";
+  background-color: #fff;
+}
+h1 {
+  font-family: 'Kreon', "serif";
+  font-size: 80px;
+}
+h2 {
+  color: #ff6472;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Kreon', "serif";
+  margin-bottom: 50px;
+  text-align: center;
+}
+h3 {
+  font-family: 'Kreon', "serif";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffcd6e;
+  text-transform: uppercase;
+  margin: 60px 0 20px 0;
+  text-align: center;
+}
+h4 {
+  font-family: "Lato", "Sans-Serif";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h5 {
+  display: inline-block;
+  text-align: center;
+}
+.content {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.roxo {
+  background-color: #461960;
+  color: #fff;
+}
+.pink {
+  background-color: #ff6472;
+  color: #fff;
+}
+.amarelo {
+  background-color: #ffcd6e;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  max-width: 700px;
+  line-height: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #461960;
+}
+a {
+  font-family: 'Kreon', "serif";
+  text-decoration: none;
+  color: #461960;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+a:hover {
+  color: #ff6472;
+  font-size: 20px;
+}
+strong {
+  font-family: 'Kreon', "serif";
+  font-weight: 700;
+  color: #ffcd6e;
+}
+em {
+  font-style: italic;
+}
+
+/* HEADER */
+
+header {
+  height: 130px;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  background-color: #fff;
+  box-shadow: 0 0 12px #edebe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 15px 0;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+header nav ul li a:hover {
+  color: #ff6472;
+  font-size: 20px;
+}
+
+/* LAURA LEMOS */
+
+#laura-lemos {
+  background-image: url('../img/laura-rosto-roxo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+#laura-lemos div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 60px 0;
+}
+#laura-lemos .chave {
+  font-size: 100px;
+  color: #ff6472;
+  font-weight: 100;
+}
+#laura-lemos h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: "Lato", "Sans-Serif";
+  text-transform: uppercase;
+  margin: 0;
+}
+#laura-lemos h1, #laura-lemos p {
+  color: #fff;
+  border-bottom: none;
+}
+#laura-lemos p {
+  margin-bottom: 60px;
+}
+
+/* OBJETIVO */
+
+#objetivo {
+  padding: 100px 0;
+}
+#objetivo h2 {
+  color: #fff;
+}
+#objetivo p {
+  border-bottom: 1px solid #fff;
+}
+
+/* SOFTWARES E PLATAFORMAS */
+#softwares-plataformas {
+  padding: 100px 0;
+}
+#softwares-plataformas h2  {
+  color: #fff;
+}
+#softwares-plataformas img {
+  width: 60px;
+}
+#softwares-plataformas li img {
+  width: 120px;
+  margin: 0 20px;
+}
+#softwares-plataformas ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#softwares-plataformas .plataformas img {
+  margin-top: 40px;
+  width: 80px;
+}
+
+/* HABILIDADES */
+
+#habilidades {
+  padding: 100px 0;
+}
+#habilidades h3 {
+  font-family: 'Kreon', "serif";
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#habilidades .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#habilidades .content div {
+  width: 45%;
+}
+#habilidades ul {
+  border-left: 4px solid #ffcd6e;
+  width: 100%;
+}
+#habilidades li {
+  background-color: #461960;
+  color: #fff;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  z-index: -1;
+}
+#habilidades li:nth-child(3) {
+  width: 70%;
+}
+#habilidades li:nth-child(7) {
+  width: 80%;
+}
+#habilidades li:nth-child(8) {
+  width: 60%;
+}
+#habilidades li:nth-child(9) {
+  width: 90%;
+}
+#habilidades .desenvolvimento li:first-child {
+  width: 80%;
+}
+#habilidades .desenvolvimento li:nth-child(2) {
+  width: 70%;
+}
+
+/* IDIOMAS */
+
+#idiomas {
+  padding: 100px 0;
+}
+#idiomas .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#idiomas p {
+  margin: 0 auto;
+  border-bottom: 1px solid #ffcd6e;
+}
+#idiomas h2 {
+  color: #ffcd6e;
+}
+
+/* EXPERIENCIA */
+
+#experiencia {
+  padding: 100px 0;
+}
+
+/* VOLUNTARIA */
+
+#voluntaria {
+  padding: 100px 0;
+}
+
+/* EDUCAÇAO */
+
+#educacao {
+  padding: 100px 0;
+}
+#educacao h4, #educacao h5 {
+  display: block;
+}
+#educacao h3 {
+  color: #461960;
+}
+
+/* CURSOS */
+
+#cursos {
+  padding: 100px 0;
+}
+#cursos h4, #cursos h5 {
+  display: block;
+}
+
+/* RODAPÉ */
+
+footer {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+footer ul li {
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+}
